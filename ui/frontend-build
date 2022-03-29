@@ -1,0 +1,5 @@
+#!/bin/bash
+rimraf ../public
+react-scripts build
+ncp build ../public
+rimraf build
