@@ -1,6 +1,6 @@
 {
-  "short_name": "RPS Bootstrap",
-  "name": "React Play Scala Bootstrap",
+  "short_name": "GoRaid",
+  "name": "Pokemon Go Raid Selector",
   "icons": [
     {
       "src": "favicon.ico",

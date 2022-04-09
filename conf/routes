@@ -10,4 +10,7 @@ POST    /api/login                  controllers.Login.processLoginAttempt
 POST    /api/signup                 controllers.Login.processSignupAttempt
 POST    /api/confirm                controllers.Login.processConfirmation
 GET     /api/collection             controllers.Main.getCollection
+GET     /api/pokedex                controllers.Main.getPokedex
+POST    /api/pokemon                controllers.Main.addPokemon
+PUT     /api/pokemon                controllers.Main.updatePokemon
 GET     /assets/*file               controllers.Frontend.assetOrDefault(file)

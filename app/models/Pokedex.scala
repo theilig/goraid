@@ -9,6 +9,7 @@ import javax.inject.{Inject, Singleton}
 trait Pokedex {
   def getPokemon(id: Int): Option[PokedexEntry]
   def getPokemon(name: String): Option[PokedexEntry]
+  def getAllPokemon: Map[String, PokedexEntry]
 }
 
 @Singleton
@@ -26,6 +27,8 @@ class JsonPokedex @Inject()(moveList: MoveList, environment: Environment) extend
     (js \ "pokemon").as[List[PokedexEntry]]({
       case JsArray(l) => JsSuccess(l.map(f => f.as[PokedexEntry](PokedexEntry.pokedexReads(moveList))).toList)
       case _ => JsError("Expected list of pokemon")
-    })
+    }).filterNot(p => p.name.contains("(Shadow)") || p.name.contains("(Mega"))
   }
+
+  def getAllPokemon: Map[String, PokedexEntry] = dexByName
 }

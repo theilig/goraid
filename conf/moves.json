@@ -276,7 +276,7 @@
       "eps": 10
     },
     {
-      "name": "Magical Leaf Fast",
+      "name": "Magical Leaf",
       "damage": 16,
       "netEnergy": 16,
       "start": 750,
@@ -540,6 +540,182 @@
       "eps": 10
     },
     {
+      "name": "Hidden Power (Bug)",
+      "damage": 15,
+      "netEnergy": 15,
+      "start": 1100,
+      "stop": 1400,
+      "done": 1500,
+      "pokeType": "Bug",
+      "dps": 10,
+      "eps": 10
+    },
+    {
+      "name": "Hidden Power (Dark)",
+      "damage": 15,
+      "netEnergy": 15,
+      "start": 1100,
+      "stop": 1400,
+      "done": 1500,
+      "pokeType": "Dark",
+      "dps": 10,
+      "eps": 10
+    },
+    {
+      "name": "Hidden Power (Dragon)",
+      "damage": 15,
+      "netEnergy": 15,
+      "start": 1100,
+      "stop": 1400,
+      "done": 1500,
+      "pokeType": "Dragon",
+      "dps": 10,
+      "eps": 10
+    },
+    {
+      "name": "Hidden Power (Electric)",
+      "damage": 15,
+      "netEnergy": 15,
+      "start": 1100,
+      "stop": 1400,
+      "done": 1500,
+      "pokeType": "Electric",
+      "dps": 10,
+      "eps": 10
+    },
+    {
+      "name": "Hidden Power (Fire)",
+      "damage": 15,
+      "netEnergy": 15,
+      "start": 1100,
+      "stop": 1400,
+      "done": 1500,
+      "pokeType": "Fire",
+      "dps": 10,
+      "eps": 10
+    },
+    {
+      "name": "Hidden Power (Fighting)",
+      "damage": 15,
+      "netEnergy": 15,
+      "start": 1100,
+      "stop": 1400,
+      "done": 1500,
+      "pokeType": "Fighting",
+      "dps": 10,
+      "eps": 10
+    },
+    {
+      "name": "Hidden Power (Flying)",
+      "damage": 15,
+      "netEnergy": 15,
+      "start": 1100,
+      "stop": 1400,
+      "done": 1500,
+      "pokeType": "Flying",
+      "dps": 10,
+      "eps": 10
+    },
+    {
+      "name": "Hidden Power (Ghost)",
+      "damage": 15,
+      "netEnergy": 15,
+      "start": 1100,
+      "stop": 1400,
+      "done": 1500,
+      "pokeType": "Ghost",
+      "dps": 10,
+      "eps": 10
+    },
+    {
+      "name": "Hidden Power (Grass)",
+      "damage": 15,
+      "netEnergy": 15,
+      "start": 1100,
+      "stop": 1400,
+      "done": 1500,
+      "pokeType": "Grass",
+      "dps": 10,
+      "eps": 10
+    },
+    {
+      "name": "Hidden Power (Ground)",
+      "damage": 15,
+      "netEnergy": 15,
+      "start": 1100,
+      "stop": 1400,
+      "done": 1500,
+      "pokeType": "Ground",
+      "dps": 10,
+      "eps": 10
+    },
+    {
+      "name": "Hidden Power (Ice)",
+      "damage": 15,
+      "netEnergy": 15,
+      "start": 1100,
+      "stop": 1400,
+      "done": 1500,
+      "pokeType": "Ice",
+      "dps": 10,
+      "eps": 10
+    },
+    {
+      "name": "Hidden Power (Poison)",
+      "damage": 15,
+      "netEnergy": 15,
+      "start": 1100,
+      "stop": 1400,
+      "done": 1500,
+      "pokeType": "Poison",
+      "dps": 10,
+      "eps": 10
+    },
+    {
+      "name": "Hidden Power (Psychic)",
+      "damage": 15,
+      "netEnergy": 15,
+      "start": 1100,
+      "stop": 1400,
+      "done": 1500,
+      "pokeType": "Psychic",
+      "dps": 10,
+      "eps": 10
+    },
+    {
+      "name": "Hidden Power (Rock)",
+      "damage": 15,
+      "netEnergy": 15,
+      "start": 1100,
+      "stop": 1400,
+      "done": 1500,
+      "pokeType": "Rock",
+      "dps": 10,
+      "eps": 10
+    },
+    {
+      "name": "Hidden Power (Steel)",
+      "damage": 15,
+      "netEnergy": 15,
+      "start": 1100,
+      "stop": 1400,
+      "done": 1500,
+      "pokeType": "Steel",
+      "dps": 10,
+      "eps": 10
+    },
+    {
+      "name": "Hidden Power (Water)",
+      "damage": 15,
+      "netEnergy": 15,
+      "start": 1100,
+      "stop": 1400,
+      "done": 1500,
+      "pokeType": "Water",
+      "dps": 10,
+      "eps": 10
+    },
+    {
       "name": "Thunder Fang",
       "damage": 12,
       "netEnergy": 16,
@@ -760,6 +936,17 @@
       "eps": 0
     },
     {
+      "name": "Struggle",
+      "damage": 35,
+      "netEnergy": 0,
+      "start": 1200,
+      "stop": 2000,
+      "done": 2200,
+      "pokeType": "Normal",
+      "dps": 15.9,
+      "eps": 0
+    },
+    {
       "name": "Yawn",
       "damage": 0,
       "netEnergy": 15,
@@ -828,7 +1015,7 @@
       "eps": -50
     },
     {
-      "name": "Techno Blast (Fire)",
+      "name": "Techno Blast (Burn)",
       "damage": 120,
       "netEnergy": -100,
       "start": 1600,
@@ -839,7 +1026,7 @@
       "eps": -50
     },
     {
-      "name": "Techno Blast (Ice)",
+      "name": "Techno Blast (Chill)",
       "damage": 120,
       "netEnergy": -100,
       "start": 1600,
@@ -850,7 +1037,7 @@
       "eps": -50
     },
     {
-      "name": "Techno Blast (Water)",
+      "name": "Techno Blast (Douse)",
       "damage": 120,
       "netEnergy": -100,
       "start": 1600,
@@ -861,7 +1048,7 @@
       "eps": -50
     },
     {
-      "name": "Techno Blast (Electric)",
+      "name": "Techno Blast (Shock)",
       "damage": 120,
       "netEnergy": -100,
       "start": 1600,
@@ -1367,6 +1554,17 @@
       "eps": -19.2
     },
     {
+      "name": "Parabolic Charge",
+      "damage": 65,
+      "netEnergy": -50,
+      "start": 1200,
+      "stop": 2400,
+      "done": 2800,
+      "pokeType": "Electric",
+      "dps": 23.2,
+      "eps": -17.9
+    },
+    {
       "name": "Grass Knot",
       "damage": 90,
       "netEnergy": -50,
@@ -1444,6 +1642,17 @@
       "eps": -20.6
     },
     {
+      "name": "Weather Ball (Rock)",
+      "damage": 55,
+      "netEnergy": -33,
+      "start": 1350,
+      "stop": 1600,
+      "done": 1600,
+      "pokeType": "Water",
+      "dps": 34.4,
+      "eps": -20.6
+    },
+    {
       "name": "Weather Ball (Normal)",
       "damage": 55,
       "netEnergy": -33,
@@ -1455,7 +1664,7 @@
       "eps": -20.6
     },
     {
-      "name": "V-create",
+      "name": "V-Create",
       "damage": 95,
       "netEnergy": -33,
       "start": 1700,
@@ -2080,6 +2289,17 @@
       "pokeType": "Psychic",
       "dps": 24.1,
       "eps": -12.2
+    },
+    {
+      "name": "Psystrike",
+      "damage": 90,
+      "netEnergy": -50,
+      "start": 1000,
+      "stop": 2000,
+      "done": 2300,
+      "pokeType": "Psychic",
+      "dps": 39.1,
+      "eps": -21.7
     },
     {
       "name": "Mud Bomb",

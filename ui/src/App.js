@@ -2,12 +2,14 @@ import React, { useState } from 'react';
 import { BrowserRouter as Router, Route } from "react-router-dom"
 import Login from './pages/Login';
 import Signup from "./pages/Signup";
-import Protected from "./pages/Protected"
+import Pokemon from "./pages/Pokemon"
 import { AuthContext } from "./context/auth";
 import PrivateRoutes from "./PrivateRoutes";
 import axios from "axios";
 import {Routes} from "react-router";
 import Logout from "./pages/Logout";
+import AddPokemon from "./pages/AddPokemon";
+import Inspect from "./pages/Inspect";
 
 function App(props) {
     let existingTokens = localStorage.getItem("tokens");
@@ -59,11 +61,13 @@ function App(props) {
             <Router>
                 <Routes>
                     <Route path="/" element={<PrivateRoutes />}>
-                        <Route path="/" element={<Protected />} />
+                        <Route path="/" element={<Pokemon />} />
+                        <Route path="/add-pokemon" element={<AddPokemon />} />
+                        <Route path="/inspect/:pokemonId" element={<Inspect />} />
                     </Route>
                     <Route path="/login" element={<Login />} />
                     <Route path="/signup" element={<Signup />} />
-                    <Route path="/confirm/:email/:confirmationToken" element={<Protected />} />
+                    <Route path="/confirm/:email/:confirmationToken" element={<Pokemon />} />
                     <Route path="/logout" element={<Logout />} />
                     <Route element={NotFound} />
                 </Routes>

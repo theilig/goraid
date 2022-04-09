@@ -16,4 +16,15 @@ object EstimateParameters {
 /**
  * This class attempts to guess the level of a Pokemon based on it's CP and stats
  */
-case class CpBenchmarks(level25Cp: Option[Int], cp500: EstimateParameters, cp1500: EstimateParameters, cp2500: EstimateParameters)
+case class CpBenchmarks(level25Cp: Option[Int], cp500: EstimateParameters, cp1500: EstimateParameters, cp2500: EstimateParameters) {
+  def guessLevelRange(combatPower: Int): (Int, Int) = {
+    val levelGuess = if (combatPower < 500) {
+      cp500.level * combatPower.toDouble / 500
+    } else if (combatPower < 1500) {
+      cp500.level + (cp1500.level - cp500.level) * (combatPower.toDouble - 500) / 1000
+    } else {
+      cp1500.level + (cp2500.level - cp1500.level) * (combatPower.toDouble - 1500) / 1000
+    }
+    (((levelGuess - 2) * 2 + .5).toInt, ((levelGuess + 2) * 2 + .5).toInt)
+  }
+}
